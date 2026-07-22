@@ -86,7 +86,6 @@ results/reference/    reported tables, Appendix E CSVs, and figures
 tests/                unit and package checks
 ```
 
-## Citation and license
+## License
 
-Citation metadata is provided in `CITATION.cff`. The code is released under the
-BSD 3-Clause License.
+The code is released under the BSD 3-Clause License.
