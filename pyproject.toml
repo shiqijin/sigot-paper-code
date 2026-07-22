@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sigot-paper-code"
+version = "1.0.0"
+description = "Numerical reproduction code for Path-Space Model Risk via Signature-Induced Optimal Transport"
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+license = {file = "LICENSE"}
+authors = [{name = "Tomoyuki Ichiba"}, {name = "Qijin Shi"}]
+dependencies = [
+  "numpy==1.26.4",
+  "pandas==2.2.3",
+  "scipy==1.13.1",
+  "matplotlib==3.9.2",
+  "iisignature==0.24",
+]
+
+[project.scripts]
+sigot-reproduce = "reproduce:main"
+
+[tool.setuptools]
+py-modules = ["reproduce"]
+
+[tool.setuptools.packages.find]
+include = ["sig_dro*", "paper*"]

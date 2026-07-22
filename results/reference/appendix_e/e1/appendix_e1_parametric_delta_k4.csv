@@ -1,0 +1,67 @@
+sweep_order,sweep_name,sweep,parameter_symbol,parameter_name,theta,theta_0,baseline_law,comparison_family,k,Delta_k,se_Delta_k
+0,gbm_drift,GBM drift,$\mu$,mu,-0.1,0.05,GBM baseline,gbm,4,29.053011251900735,0.5481244360853614
+0,gbm_drift,GBM drift,$\mu$,mu,-0.075,0.05,GBM baseline,gbm,4,21.42652153446781,0.36544968648671433
+0,gbm_drift,GBM drift,$\mu$,mu,-0.05,0.05,GBM baseline,gbm,4,15.08546626764003,0.23634607392209692
+0,gbm_drift,GBM drift,$\mu$,mu,-0.025,0.05,GBM baseline,gbm,4,9.983380796335526,0.14532672619010645
+0,gbm_drift,GBM drift,$\mu$,mu,0.0,0.05,GBM baseline,gbm,4,6.603900223275511,0.0738893039800807
+0,gbm_drift,GBM drift,$\mu$,mu,0.025,0.05,GBM baseline,gbm,4,3.718032711606553,0.05129586021423762
+0,gbm_drift,GBM drift,$\mu$,mu,0.05,0.05,GBM baseline,gbm,4,0.0,0.0
+0,gbm_drift,GBM drift,$\mu$,mu,0.075,0.05,GBM baseline,gbm,4,4.666599671748676,0.07722987582114303
+0,gbm_drift,GBM drift,$\mu$,mu,0.1,0.05,GBM baseline,gbm,4,10.409818114307184,0.17690087764533755
+0,gbm_drift,GBM drift,$\mu$,mu,0.125,0.05,GBM baseline,gbm,4,17.350862069084986,0.3047316073328122
+0,gbm_drift,GBM drift,$\mu$,mu,0.15,0.05,GBM baseline,gbm,4,25.620939696914974,0.4667942683964014
+0,gbm_drift,GBM drift,$\mu$,mu,0.175,0.05,GBM baseline,gbm,4,35.364287888143046,0.6661767502300757
+0,gbm_drift,GBM drift,$\mu$,mu,0.2,0.05,GBM baseline,gbm,4,46.74554128818158,0.907997965429818
+1,gbm_volatility,GBM volatility,$\sigma$,sigma,0.08,0.2,GBM baseline,gbm,4,36.31955996964051,0.8587188827281805
+1,gbm_volatility,GBM volatility,$\sigma$,sigma,0.1,0.2,GBM baseline,gbm,4,33.09502535609973,0.8071774220510954
+1,gbm_volatility,GBM volatility,$\sigma$,sigma,0.12,0.2,GBM baseline,gbm,4,28.99699424140661,0.730485584332976
+1,gbm_volatility,GBM volatility,$\sigma$,sigma,0.14,0.2,GBM baseline,gbm,4,23.849603342601586,0.6208791329071405
+1,gbm_volatility,GBM volatility,$\sigma$,sigma,0.16,0.2,GBM baseline,gbm,4,17.45406566078911,0.46957986014350817
+1,gbm_volatility,GBM volatility,$\sigma$,sigma,0.18,0.2,GBM baseline,gbm,4,9.587051157138259,0.266277009847375
+1,gbm_volatility,GBM volatility,$\sigma$,sigma,0.2,0.2,GBM baseline,gbm,4,0.0,0.0
+1,gbm_volatility,GBM volatility,$\sigma$,sigma,0.22,0.2,GBM baseline,gbm,4,11.581881946360435,0.3419422985050865
+1,gbm_volatility,GBM volatility,$\sigma$,sigma,0.24,0.2,GBM baseline,gbm,4,25.461698664698666,0.7737841975821594
+1,gbm_volatility,GBM volatility,$\sigma$,sigma,0.26,0.2,GBM baseline,gbm,4,41.97238632511532,1.3113969157476593
+1,gbm_volatility,GBM volatility,$\sigma$,sigma,0.28,0.2,GBM baseline,gbm,4,61.47776904239568,1.9719210307259862
+1,gbm_volatility,GBM volatility,$\sigma$,sigma,0.3,0.2,GBM baseline,gbm,4,84.37505417593783,2.773070858368167
+1,gbm_volatility,GBM volatility,$\sigma$,sigma,0.32,0.2,GBM baseline,gbm,4,111.09616032999986,3.735324607920956
+2,merton_jump_intensity,Merton jump intensity,$\lambda$,jump_intensity,0.0,0.0,GBM baseline,merton,4,0.0,0.0
+2,merton_jump_intensity,Merton jump intensity,$\lambda$,jump_intensity,0.1,0.0,GBM baseline,merton,4,2.8474929418009434,0.2913762129995466
+2,merton_jump_intensity,Merton jump intensity,$\lambda$,jump_intensity,0.2,0.0,GBM baseline,merton,4,5.8828199599009094,0.3274936052093489
+2,merton_jump_intensity,Merton jump intensity,$\lambda$,jump_intensity,0.35,0.0,GBM baseline,merton,4,10.672409506638763,0.6277363187526745
+2,merton_jump_intensity,Merton jump intensity,$\lambda$,jump_intensity,0.5,0.0,GBM baseline,merton,4,14.69934668910974,0.7738531312447776
+2,merton_jump_intensity,Merton jump intensity,$\lambda$,jump_intensity,0.75,0.0,GBM baseline,merton,4,23.327905010984555,0.3901974438756193
+2,merton_jump_intensity,Merton jump intensity,$\lambda$,jump_intensity,1.0,0.0,GBM baseline,merton,4,31.74488193909396,0.7076216449609977
+2,merton_jump_intensity,Merton jump intensity,$\lambda$,jump_intensity,1.25,0.0,GBM baseline,merton,4,40.608793563131265,2.770427857898536
+2,merton_jump_intensity,Merton jump intensity,$\lambda$,jump_intensity,1.5,0.0,GBM baseline,merton,4,50.01380975876142,1.7616217735794222
+2,merton_jump_intensity,Merton jump intensity,$\lambda$,jump_intensity,1.75,0.0,GBM baseline,merton,4,59.83182598161441,2.7737140219563883
+2,merton_jump_intensity,Merton jump intensity,$\lambda$,jump_intensity,2.0,0.0,GBM baseline,merton,4,71.57866424201437,3.431354911375685
+3,heston_vol_of_vol,GBM--Heston vol-of-vol,$\xi_v$,xi_v,0.0,0.0,GBM baseline,heston,4,1.6409375637205752,0.21945514744404107
+3,heston_vol_of_vol,GBM--Heston vol-of-vol,$\xi_v$,xi_v,0.1,0.0,GBM baseline,heston,4,2.3651045626863967,0.3278384251342039
+3,heston_vol_of_vol,GBM--Heston vol-of-vol,$\xi_v$,xi_v,0.2,0.0,GBM baseline,heston,4,4.083212412843634,0.17999280452085095
+3,heston_vol_of_vol,GBM--Heston vol-of-vol,$\xi_v$,xi_v,0.3,0.0,GBM baseline,heston,4,6.958789511526822,0.5569120373915891
+3,heston_vol_of_vol,GBM--Heston vol-of-vol,$\xi_v$,xi_v,0.4,0.0,GBM baseline,heston,4,11.162714296701857,0.9002756599900746
+3,heston_vol_of_vol,GBM--Heston vol-of-vol,$\xi_v$,xi_v,0.5,0.0,GBM baseline,heston,4,16.57467608169202,1.3283745436479848
+3,heston_vol_of_vol,GBM--Heston vol-of-vol,$\xi_v$,xi_v,0.65,0.0,GBM baseline,heston,4,26.80471493698323,2.408483144249894
+3,heston_vol_of_vol,GBM--Heston vol-of-vol,$\xi_v$,xi_v,0.8,0.0,GBM baseline,heston,4,39.91219155917539,4.339199984332869
+3,heston_vol_of_vol,GBM--Heston vol-of-vol,$\xi_v$,xi_v,1.0,0.0,GBM baseline,heston,4,62.84917263905011,9.653785808342535
+4,heston_self_sigma_v,Heston self vol-of-vol,$\sigma_v$,xi_v,0.0,0.35,Heston baseline,heston,4,9.091098906961836,0.6435447360054726
+4,heston_self_sigma_v,Heston self vol-of-vol,$\sigma_v$,xi_v,0.1,0.35,Heston baseline,heston,4,7.83128989296597,0.528739741117816
+4,heston_self_sigma_v,Heston self vol-of-vol,$\sigma_v$,xi_v,0.2,0.35,Heston baseline,heston,4,5.541368005364584,0.3625534293620273
+4,heston_self_sigma_v,Heston self vol-of-vol,$\sigma_v$,xi_v,0.35,0.35,Heston baseline,heston,4,0.0,0.0
+4,heston_self_sigma_v,Heston self vol-of-vol,$\sigma_v$,xi_v,0.5,0.35,Heston baseline,heston,4,7.947436647380099,0.6201512509423067
+4,heston_self_sigma_v,Heston self vol-of-vol,$\sigma_v$,xi_v,0.65,0.35,Heston baseline,heston,4,18.221574126092086,1.706344277826602
+4,heston_self_sigma_v,Heston self vol-of-vol,$\sigma_v$,xi_v,0.8,0.35,Heston baseline,heston,4,31.23052515374145,3.6868737498566873
+4,heston_self_sigma_v,Heston self vol-of-vol,$\sigma_v$,xi_v,1.0,0.35,Heston baseline,heston,4,53.78795239735946,8.940857835839573
+4,heston_self_sigma_v,Heston self vol-of-vol,$\sigma_v$,xi_v,1.2,0.35,Heston baseline,heston,4,85.24133373106989,16.94924861478994
+5,cev_beta,CEV/local-vol elasticity,$\beta$,beta,0.4,1.0,CEV baseline,cev,4,4.243151056631497,0.43959629450395127
+5,cev_beta,CEV/local-vol elasticity,$\beta$,beta,0.5,1.0,CEV baseline,cev,4,3.305605050231713,0.3139716287079799
+5,cev_beta,CEV/local-vol elasticity,$\beta$,beta,0.6,1.0,CEV baseline,cev,4,2.550670883673027,0.2293926458995924
+5,cev_beta,CEV/local-vol elasticity,$\beta$,beta,0.7,1.0,CEV baseline,cev,4,1.9036742791657233,0.1633898744997978
+5,cev_beta,CEV/local-vol elasticity,$\beta$,beta,0.8,1.0,CEV baseline,cev,4,1.3072115537848847,0.11720790425326164
+5,cev_beta,CEV/local-vol elasticity,$\beta$,beta,0.9,1.0,CEV baseline,cev,4,0.7098436963297019,0.049828708610316685
+5,cev_beta,CEV/local-vol elasticity,$\beta$,beta,1.0,1.0,CEV baseline,cev,4,0.0,0.0
+5,cev_beta,CEV/local-vol elasticity,$\beta$,beta,1.1,1.0,CEV baseline,cev,4,0.7477056934275861,0.07398359259471869
+5,cev_beta,CEV/local-vol elasticity,$\beta$,beta,1.2,1.0,CEV baseline,cev,4,1.506582442276713,0.1479311022406766
+5,cev_beta,CEV/local-vol elasticity,$\beta$,beta,1.3,1.0,CEV baseline,cev,4,2.359899895810103,0.23222487461948105
+5,cev_beta,CEV/local-vol elasticity,$\beta$,beta,1.5,1.0,CEV baseline,cev,4,4.430074535915016,0.48646607010870224

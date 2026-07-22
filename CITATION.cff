@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying paper."
+title: "Path-Space Model Risk via Signature-Induced Optimal Transport: Reproduction Code"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Ichiba
+    given-names: Tomoyuki
+  - family-names: Shi
+    given-names: Qijin
+preferred-citation:
+  type: article
+  title: "Path-Space Model Risk via Signature-Induced Optimal Transport"
+  authors:
+    - family-names: Ichiba
+      given-names: Tomoyuki
+    - family-names: Shi
+      given-names: Qijin
+  year: 2026
